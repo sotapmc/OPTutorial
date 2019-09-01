@@ -1,0 +1,27 @@
+{
+  "name": "sotap-optutorial",
+  "version": "1.0.0",
+  "description": "The tutorial for every operator in Minecraft Server Management.",
+  "main": "index.js",
+  "scripts": {
+    "test": "docsify serve ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sotapmc/OPTutorial.git"
+  },
+  "keywords": [
+    "sotap",
+    "minecraft",
+    "tutorial"
+  ],
+  "author": "Sotap",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sotapmc/OPTutorial/issues"
+  },
+  "homepage": "https://github.com/sotapmc/OPTutorial#readme",
+  "dependencies": {
+    "docsify": "^4.9.4"
+  }
+}
