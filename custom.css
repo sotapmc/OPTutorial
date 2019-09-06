@@ -1,0 +1,27 @@
+table {
+    width: fit-content !important;
+    margin: auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+figcaption {
+    color: #aaa;
+}
+
+.app-name-link {
+    font-weight: 700;
+    margin: 16px;
+    font-family: "Poppins", "Source Sans Pro", Helvetica, Arial, sans-serif;
+}
+
+.MathJax_Display{overflow-x:auto;overflow-y:hidden;}
+.MathJax{outline:0;}
