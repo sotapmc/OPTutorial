@@ -2,20 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>sotap-optutorial - The tutorial for every operator in Minecraft Server Management.</title>
+  <title>Operators' Tutorial</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="The tutorial for every operator in Minecraft Server Management.">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="/custom.css">
+  <link href="https://fonts.loli.net/css?family=Poppins:700|Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link rel="icon" href="https://sotap.oss-cn-qingdao.aliyuncs.com/favicon.ico">
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: 'sotap-optutorial',
-      repo: 'https://github.com/sotapmc/OPTutorial'
+      name: 'Operators\' Tutorial',
+			nameLink: '/',
+			repo: 'https://github.com/Sotapmc/OPTutorial',
+			loadSidebar: true,
+			notFoundPage: '_404.md',
+			noEmoji: false,
+			auto2top: true,
+			homepage: 'index.md',
+			plugins: [
+				function (hook) {
+					hook.doneEach(function () {
+						if (typeof MathJax !== "undefined") {
+							MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+						}
+					})
+				}
+			],
+			subMaxLevel: 2,
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+	<script src="https://cdn.staticfile.org/mathjax/2.7.5/MathJax.js?config=TeX-AMS_HTML"></script>
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			showProcessingMessages: false,
+			messageStyle: "none",
+			extensions: ["tex2jax.js"],
+			jax: ["input/TeX", "output/HTML-CSS"],
+			tex2jax: {
+				inlineMath: [["$", "$"], ["\(", "\)"]],
+				displayMath: [["$$", "$$"], ["\[", "\]"]],
+				skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code', 'a'],
+			},
+			"HTML-CSS": {
+				showMathMenu: false,
+			}
+		});
+		MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+	</script>
 </body>
 </html>
