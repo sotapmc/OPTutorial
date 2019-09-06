@@ -4,7 +4,7 @@
   "description": "The tutorial for every operator in Minecraft Server Management.",
   "main": "index.js",
   "scripts": {
-    "test": "docsify serve ."
+    "serve": "docsify serve ."
   },
   "repository": {
     "type": "git",
