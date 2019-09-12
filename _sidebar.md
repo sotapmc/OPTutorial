@@ -2,3 +2,6 @@
 - 介绍
     - [OP 是什么？](basic/op.md)
     - [所需知识水平概述](basic/knowledge-basement.md)
+- 权限组管理模式
+    - [概述](permission-group/main.md)
+    - [权限节点](permission-group/node.md)
