@@ -14,7 +14,13 @@ a:hover {
 }
 
 figcaption {
-    color: #aaa;
+    color: #bbb;
+    text-align: center;
+    margin: 4px;
+}
+
+img {
+    border-radius: 2px;
 }
 
 .app-name-link {
@@ -25,3 +31,8 @@ figcaption {
 
 .MathJax_Display{overflow-x:auto;overflow-y:hidden;}
 .MathJax{outline:0;}
+
+*::selection {
+    background-color: rgba(66, 185, 131, .2);
+    color: inherit;
+}
