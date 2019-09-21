@@ -26,11 +26,19 @@ MCOT 接受来自任何人的贡献，阁下可以通过提交 Pull Request 进�
     ```bash
     git clone git@github.com:sotapmc/OPTutorial.git
     ```
+    
 2. 执行依赖安装：
     ```bash
     npm i
     ```
+    
 3. 对文件进行修改。我们使用 Docsify 来构建文档，阁下可以通过*简单地*在项目文件夹里创建不同的文件夹来代表不同的内容；在根目录里存放应用级别的依赖；以及别忘了在 `_sidebar.md` 中添加上阁下创建的页面。
+
+    ```bash
+    # 使用该指令进行实时预览
+    docsify serve
+    ```
+
 4. 提交更改：
     ```bash
     git add *
