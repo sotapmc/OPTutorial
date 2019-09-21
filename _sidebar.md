@@ -1,7 +1,8 @@
 - [开始](index.md)
 - 介绍
     - [OP 是什么？](basic/op.md)
-    - [所需知识水平概述](basic/knowledge-basement.md)
+    - [指令格式基础](basic/commands.md)
 - 权限组管理模式
     - [概述](permission-group/main.md)
     - [权限节点](permission-group/node.md)
+    - [LuckPerms 常用指令](permission-group/luckperms.md)

@@ -8,7 +8,7 @@
 
 假设我们用 `china` 来表示中国，用 `guangdong` 来表示广东，用 `shenzhen` 来表示深圳，用 `tencent` 表示深圳市南山区的腾讯滨海大厦，那么「腾讯滨海大厦」这个**实体**（Object）就可以被表示为 `china.guangdong.shenzhen.tencent`。
 
-<iframe src="https://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3685.50691858712!2d113.9331017155786!3d22.522675985208462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403effbe6569ed9%3A0x4d94f0d0ea54259!2z6aiw6KiK5r-x5rW35aSn5buI!5e0!3m2!1szh-TW!2scn!4v1568294716957!5m2!1szh-TW!2scn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+<iframe src="http://www.google.cn/maps/embed?pb=!1m18!1m12!1m3!1d3685.50691858712!2d113.9331017155786!3d22.522675985208462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403effbe6569ed9%3A0x4d94f0d0ea54259!2z6aiw6KiK5r-x5rW35aSn5buI!5e0!3m2!1szh-TW!2scn!4v1568294716957!5m2!1szh-TW!2scn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 看到了这个，相信「权限节点」这一概念依然显得很模糊，我们逐一解释。
 
